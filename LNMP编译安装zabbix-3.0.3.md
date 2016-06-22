@@ -541,5 +541,6 @@
 	systemctl enable zabbix-server.service
 	systemctl start zabbix-server
 
-
- 
+## 注意事项
+1、安放zabbix的WEB文件必须放在\zabbix\下，否则有文件路径不对，显示出错；
+2、自启动设置时，zabbix_server必须在MySQL后启动；
